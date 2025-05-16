@@ -1,8 +1,8 @@
-# 🌥️ Cloud Segmentation in Hyperspectral Satellite Imagery
+#  Cloud Segmentation in Hyperspectral Satellite Imagery
 
 This project is part of my Data Science portfolio, showcasing the development of **Machine Learning models for cloud cover segmentation** in hyperspectral satellite images.  
 
-## 🚀 Project Overview
+##  Project Overview
 
 - **Goal:** Build a **cloud segmentation model** using ML to classify pixels in satellite images as **cloud** or **non-cloud**.
 - **Dataset:** Sentinel-2 satellite images (Copernicus data)
@@ -10,7 +10,7 @@ This project is part of my Data Science portfolio, showcasing the development of
 - **Tools & Libraries:** `R`, `raster`, `caret`, `ggplot2`, `tidyverse`
 - **Performance Metrics:** Accuracy, Precision, Recall, F1 Score, Kappa
 
-## 📊 Methodology
+##  Methodology
 
 1. **Data Preprocessing**
    - Extracted RGB bands from Sentinel-2 satellite images
@@ -26,19 +26,19 @@ This project is part of my Data Science portfolio, showcasing the development of
    - Tested on untrained satellite images
    - Evaluated generalization performance across datasets
 
-## 🖥️ Code and Data
+##  Code and Data
 
 - `scripts/File_Pt_1_of_3.R` → **Preprocessing & Labeling**
 - `scripts/File_Pt_2_of_3.R` → **Training ML models**
 - `scripts/File_Pt_3_of_3.R` → **Testing ML models**
 
-## 📌 Key Findings
+##  Key Findings
 
 ✔️ Decision Trees were **most stable** across trained & untrained images  
 ✔️ Random Forest & SVM showed **higher variability**  
 ✔️ Threshold-based labeling affected **precision-recall trade-offs**  
 
-## 📚 Project Files
+##  Project Files
 
-- **📂 Scripts folder** → R scripts for ML implementation
-- **📂 Data folder** → Copernicus satellite images
+- ** Scripts folder** → R scripts for ML implementation
+- ** Data folder** → Copernicus satellite images
